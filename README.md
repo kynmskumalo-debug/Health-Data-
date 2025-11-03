@@ -1,22 +1,33 @@
-# Health-Data-
-Excellent — the dataset looks rich and realistic for a healthcare analytics project.
+<h1>Health Care Evaluation (overview) </h1>
 
-Here’s what we learned from the exploration:
+ Data Types: Mix of categorical, numerical, and date data
 
-🏥 Dataset Overview
+ Key fields:
+- Patient demographics: Name, Age, Gender, Blood Type
+- Medical info: Medical Condition, Medication, Test Results
+- Operational data: Doctor, Hospital, Room Number, Admission Type, Date of Admission, Discharge Date,
+- Financial data: Billing Amount, Insurance Provider
 
-Rows: 55,500
+Data cleaning and preparationg
+I have ensured dates are usable for time analysis and calculate the length of stay, a critical hospital metric. 
 
-Columns: 15
+ What is the average billing amountby medical condition
+bar caht answers this
 
-Data Types: Mix of categorical, numerical, and date data
+which admission tyoes are most common, and how do their average lengths of stay compare 
+Compares emergency, urgent and elective admission to reveal hospital workflow differences
 
-Key fields:
+Which doctors generate the highest total billing 
+. shows top revenue-generating doctors valauble for hospital management. top 10 drs 
 
-Patient demographics: Name, Age, Gender, Blood Type
+Predictive analysis- what factors most affect billing amount
+uses a linear regression model to identify which variables influence hostpital  billing the most, Bar chart feature importance 
 
-Medical info: Medical Condition, Medication, Test Results
+seasonal trend -how do admissions vary across months and years 
+line chart showing admissions by month 
 
-Operational data: Doctor, Hospital, Room Number, Admission Type, Date of Admission, Discharge Date
+ Businnes insight dashboard 
+this file can feed a dashboard showing KPIs like average billing, average lenght of stag and admissions by conditions 
 
-Financial data: Billing Amount, Insurance Provider
+
+
